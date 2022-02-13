@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="generics" />
+        <module name="lambda" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="generics" target="14" />
+      <module name="lambda" target="14" />
       <module name="oop-review" target="11" />
     </bytecodeTargetLevel>
   </component>
