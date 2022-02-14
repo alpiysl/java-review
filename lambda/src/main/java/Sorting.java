@@ -1,4 +1,5 @@
-public interface Sorting {
 
+@FunctionalInterface
+public interface Sorting {
     void sort();
 }

@@ -14,7 +14,7 @@ public class ArrayListExample {
 //        items.add("apple");
         printDouble(items);
 
-/*      after java 5 we are noe able to specify the type,
+/*      after java 5 we are not able to specify the type,
         if there is sth error we get compiler error
 */
 
