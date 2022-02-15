@@ -1,6 +1,6 @@
 package functionalinterfaces;
 
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class Examples {
 
@@ -21,5 +21,29 @@ public class Examples {
 
         System.out.println(less.test(50));
 
+
+        //***CONSUMER*****
+        Consumer<Integer> display = i -> System.out.println(i);
+        display.accept(10);
+
+        //***BICONSUMER*****
+
+        BiConsumer<Integer,Integer> biConsumer = (x,y) -> System.out.println(x+y);
+        biConsumer.accept(10,20);
+
+
+        //***FUNCTION*****
+//        Function<String,String> func = new Function<String, String>() {
+//            @Override
+//            public String apply(String s) {
+//                return "Hello " + s ;
+//            }
+//        }
+        Function<String,String> func = f -> "Hello " + f;
+        System.out.println(func.apply("world"));
+
+        //***SUPPLIER*****
+        Supplier<Double> value = () -> Math.random();
+        System.out.println(value.get());
     }
 }
