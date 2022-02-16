@@ -29,7 +29,5 @@ public class CarTest {
         BiFunction<String,Integer,Car> b2 = Car::new;
         Car honda = b2.apply("honda",2001);
         System.out.println(honda.getModel());
-
     }
-
 }

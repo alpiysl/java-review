@@ -2,6 +2,7 @@ package doubleColonOperator;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 public class Demo {
 
@@ -31,8 +32,12 @@ public class Demo {
 
         Consumer<Integer> display = i -> System.out.println(i);
         display.accept(20);
-
         Consumer<Integer> display2 = System.out::println;
+        display2.accept(20);
+
+        BiFunction<MyClass,Integer,Double> v2 = MyClass::method;
+        BiFunction<String,String,String> v3 = String::concat;
+
 
     }
 }
