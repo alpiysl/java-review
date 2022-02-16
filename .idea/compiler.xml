@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="generics" />
         <module name="lambda" />
+        <module name="Streams" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="generics" target="14" />
       <module name="lambda" target="14" />
       <module name="oop-review" target="11" />
+      <module name="Streams" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
