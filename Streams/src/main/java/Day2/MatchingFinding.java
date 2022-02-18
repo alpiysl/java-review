@@ -34,7 +34,5 @@ public class MatchingFinding {
                 filter(Dish::isVeg).
                 findFirst();
         System.out.println("dish = " + dish2);
-
-
     }
 }
