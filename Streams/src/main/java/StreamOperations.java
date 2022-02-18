@@ -38,7 +38,7 @@ public class StreamOperations {
         System.out.println("---------MAP");
         //MAP
         list.stream().
-                map(i -> i * 2).
+                map(i -> i * 2). // get one data and make some actions on it
                 filter(i -> i % 3 == 0).
                 forEach(System.out::println);
     }
