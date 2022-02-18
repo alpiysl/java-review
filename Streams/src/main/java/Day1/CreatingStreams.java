@@ -1,3 +1,7 @@
+package Day1;
+
+import Day1.Course;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -26,6 +30,7 @@ public class CreatingStreams {
 
         //Creating streams from values
         Stream<Integer> stream = Stream.of(1,2,3,4);
+        Stream<String> stream2 = Stream.of("a","b","c");
 
     }
 }

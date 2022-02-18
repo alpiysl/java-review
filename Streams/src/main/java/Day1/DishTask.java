@@ -1,3 +1,8 @@
+package Day1;
+
+import Day1.Dish;
+import Day1.DishData;
+
 import static java.util.Comparator.comparing;
 
 public class DishTask {
