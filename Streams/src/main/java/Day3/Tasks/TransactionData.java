@@ -1,4 +1,7 @@
-package Day3;
+package Day3.Tasks;
+
+import Day3.Tasks.Trader;
+import Day3.Tasks.Transaction;
 
 import java.util.*;
 

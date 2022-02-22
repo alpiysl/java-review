@@ -1,4 +1,4 @@
-package Day3;
+package Day3.Tasks;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

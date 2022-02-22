@@ -1,5 +1,6 @@
-package Day3;
+package Day3.Tasks;
 
+import Day3.Tasks.Trader;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
