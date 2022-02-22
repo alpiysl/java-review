@@ -1,4 +1,4 @@
-package Day3.Tasks.Collectors;
+package Day3.Collectors;
 
 import Day1.Dish;
 import Day1.DishData;
